@@ -5,6 +5,7 @@ from urllib.parse import urljoin
 import requests
 from pypdf import PdfReader
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
+
 BASE = "https://parivesh.nic.in"
 EC_URL = "https://parivesh.nic.in/#/ec"
 STATES = {
