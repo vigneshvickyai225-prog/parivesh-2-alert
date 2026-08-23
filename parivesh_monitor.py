@@ -5,7 +5,6 @@ from urllib.parse import urljoin
 import requests
 from pypdf import PdfReader
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
-
 BASE = "https://parivesh.nic.in"
 EC_URL = "https://parivesh.nic.in/#/ec"
 STATES = {
@@ -148,6 +147,7 @@ def scrape_state(page,state):
                 except Exception:
                     pass
                 break
+
     # Scroll so lazy-loaded cards/tables are rendered.
     for _ in range(4):
         page.mouse.wheel(0, 2500)
