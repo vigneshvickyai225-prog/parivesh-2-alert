@@ -1,3 +1,2 @@
 requests>=2.31,<3
-pypdf>=5,<7
 playwright>=1.50,<2
