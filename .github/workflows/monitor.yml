@@ -1,9 +1,9 @@
-name: PARIVESH 2.0 Telegram Monitor
+name: PARIVESH 2.0 SEIAA Monitor V4
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: "*/30 * * * *"
 
 permissions:
   contents: write
@@ -11,16 +11,16 @@ permissions:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Install Python packages
         run: |
@@ -28,20 +28,26 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: Run PARIVESH 2.0 monitor
+      - name: Run PARIVESH V4 network-aware monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          HEARTBEAT: '0'
-        run: python parivesh_monitor.py
+        run: |
+          python parivesh_monitor.py
 
-      - name: Persist duplicate database
+      - name: Upload network diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: parivesh-v4-network-diagnostics
+          path: data/network_endpoints.json
+          if-no-files-found: warn
+
+      - name: Commit database and diagnostics
         if: always()
         run: |
-          if [ -f data/parivesh.db ]; then
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add data/parivesh.db
-            git diff --cached --quiet || git commit -m 'Update PARIVESH monitor database'
-            git push
-          fi
+          git config user.name "PARIVESH Monitor"
+          git config user.email "parivesh-monitor@users.noreply.github.com"
+          git add data/parivesh.db data/network_endpoints.json
+          git diff --cached --quiet || git commit -m "Update PARIVESH V4 monitoring state"
+          git push
