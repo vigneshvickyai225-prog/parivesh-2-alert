@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:02:59.297426+00:00",
+  "generated_at": "2026-08-31T15:32:48.947950+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [],
   "api_candidates": [
@@ -10,13 +10,13 @@
       "method": "GET",
       "status": 200,
       "content_type": "text/html",
-      "time": "2026-08-31T15:02:58.068992+00:00"
+      "time": "2026-08-31T15:32:47.285811+00:00"
     },
     "https://parivesh.nic.in/logo-new.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml",
-      "time": "2026-08-31T15:02:58.079759+00:00"
+      "time": "2026-08-31T15:32:47.298428+00:00"
     }
   },
   "validated_records": [],
