@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:38:03.163705+00:00",
+  "generated_at": "2026-09-02T14:04:52.176662+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -76,6 +76,11 @@
       "status": 200,
       "content_type": "text/css"
     },
+    "https://parivesh.nic.in/assests/css/slick.css": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "text/css"
+    },
     "https://parivesh.nic.in/assests/css/custom.css": {
       "method": "GET",
       "status": 200,
@@ -87,11 +92,6 @@
       "content_type": "text/css"
     },
     "https://parivesh.nic.in/static/css/main.acb13a0b.css": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "text/css"
-    },
-    "https://parivesh.nic.in/assests/css/slick.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css"
@@ -156,6 +156,11 @@
       "status": 200,
       "content_type": "image/png"
     },
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
     "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
@@ -166,13 +171,13 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
     "https://parivesh.nic.in/parivesh_api/visitor/list": {
       "method": "POST",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
+      "method": "GET",
       "status": 200,
       "content_type": "application/json"
     },
@@ -181,12 +186,7 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "application/json"
-    },
-    "https://parivesh.nic.in/assests/img/indianflag.svg": {
+    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
@@ -196,7 +196,7 @@
       "status": 200,
       "content_type": "image/svg+xml"
     },
-    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
+    "https://parivesh.nic.in/assests/img/indianflag.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
