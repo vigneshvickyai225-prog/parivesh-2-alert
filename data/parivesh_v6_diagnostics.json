@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T06:38:25.745670+00:00",
+  "generated_at": "2026-09-05T07:04:11.352364+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -136,7 +136,7 @@
       "status": 200,
       "content_type": "font/ttf"
     },
-    "https://parivesh.nic.in/assests/img/visitor.png": {
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -146,17 +146,17 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
+    "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
     "https://parivesh.nic.in/assests/img/ecnew.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -186,6 +186,11 @@
       "status": 200,
       "content_type": "application/json"
     },
+    "https://parivesh.nic.in/assests/img/logo-new.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
     "https://parivesh.nic.in/assests/img/indianflag.svg": {
       "method": "GET",
       "status": 200,
@@ -196,17 +201,12 @@
       "status": 200,
       "content_type": "image/svg+xml"
     },
-    "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/logo-new.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
     "https://parivesh.nic.in/assests/img/Emblem_of_India.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
