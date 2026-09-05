@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:04:06.175072+00:00",
+  "generated_at": "2026-09-05T10:33:48.167470+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -141,12 +141,12 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/visitor.png": {
+    "https://parivesh.nic.in/assests/img/qrcode.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/qrcode.png": {
+    "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -176,10 +176,10 @@
       "status": 200,
       "content_type": "application/json"
     },
-    "https://parivesh.nic.in/assests/img/logo-f.png": {
+    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
       "method": "GET",
       "status": 200,
-      "content_type": "image/png"
+      "content_type": "image/svg+xml"
     },
     "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
       "method": "GET",
@@ -187,11 +187,6 @@
       "content_type": "application/json"
     },
     "https://parivesh.nic.in/assests/img/indianflag.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
@@ -210,6 +205,11 @@
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/logo-f.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
     }
   },
   "validated_records": [],
