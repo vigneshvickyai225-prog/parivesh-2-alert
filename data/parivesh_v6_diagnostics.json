@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T17:33:57.906860+00:00",
+  "generated_at": "2026-09-06T18:04:47.708904+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -176,25 +176,10 @@
       "status": 200,
       "content_type": "application/json"
     },
-    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
     "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
       "method": "GET",
       "status": 200,
       "content_type": "application/json"
-    },
-    "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/indianflag.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
     },
     "https://parivesh.nic.in/assests/img/logo-new.svg": {
       "method": "GET",
@@ -206,7 +191,22 @@
       "status": 200,
       "content_type": "image/png"
     },
+    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
     "https://parivesh.nic.in/assests/img/Emblem_of_India.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/indianflag.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
