@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:36:52.015112+00:00",
+  "generated_at": "2026-09-07T22:04:35.612061+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -81,12 +81,12 @@
       "status": 200,
       "content_type": "text/css"
     },
-    "https://parivesh.nic.in/assests/css/responsive.css": {
+    "https://parivesh.nic.in/assests/css/custom.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css"
     },
-    "https://parivesh.nic.in/assests/css/custom.css": {
+    "https://parivesh.nic.in/assests/css/responsive.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css"
@@ -136,22 +136,17 @@
       "status": 200,
       "content_type": "font/ttf"
     },
+    "https://parivesh.nic.in/assests/img/ecnew.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
     "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
     "https://parivesh.nic.in/assests/img/qrcode.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -166,7 +161,7 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/logo-f.png": {
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -181,6 +176,16 @@
       "status": 200,
       "content_type": "application/json"
     },
+    "https://parivesh.nic.in/assests/img/logo-f.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "application/json"
+    },
     "https://parivesh.nic.in/assests/img/indianflag.svg": {
       "method": "GET",
       "status": 200,
@@ -190,11 +195,6 @@
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "application/json"
     },
     "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
       "method": "GET",
