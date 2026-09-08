@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:04:35.989241+00:00",
+  "generated_at": "2026-09-08T21:34:54.000335+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -61,12 +61,12 @@
       "status": 200,
       "content_type": "text/html"
     },
-    "https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap": {
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css; charset=utf-8"
     },
-    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css": {
+    "https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css; charset=utf-8"
@@ -141,12 +141,12 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/servicebg.png": {
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
+    "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -161,7 +161,7 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecnew.png": {
+    "https://parivesh.nic.in/assests/img/servicebg.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
