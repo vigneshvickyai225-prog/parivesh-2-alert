@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T14:40:15.399366+00:00",
+  "generated_at": "2026-09-09T15:04:39.787577+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -111,12 +111,12 @@
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/jquery.min.js": {
+    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
+    "https://parivesh.nic.in/assests/js/jquery.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -136,12 +136,12 @@
       "status": 200,
       "content_type": "font/woff2"
     },
-    "https://parivesh.nic.in/assests/img/qrcode.png": {
+    "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
+    "https://parivesh.nic.in/assests/img/qrcode.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -156,12 +156,17 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecnew.png": {
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/logo-f.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -175,11 +180,6 @@
       "method": "POST",
       "status": 200,
       "content_type": "application/json"
-    },
-    "https://parivesh.nic.in/assests/img/logo-f.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
     },
     "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
       "method": "GET",
