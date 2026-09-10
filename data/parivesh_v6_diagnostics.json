@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T04:38:41.712255+00:00",
+  "generated_at": "2026-09-10T05:04:40.581137+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -106,17 +106,17 @@
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/slick.min.js": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "application/javascript"
-    },
     "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
     },
     "https://parivesh.nic.in/assests/js/jquery.min.js": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    "https://parivesh.nic.in/assests/js/slick.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -136,12 +136,7 @@
       "status": 200,
       "content_type": "font/woff2"
     },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/ecnew.png": {
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -151,17 +146,22 @@
       "status": 200,
       "content_type": "image/png"
     },
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
     "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/qrcode.png": {
+    "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
+    "https://parivesh.nic.in/assests/img/qrcode.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
