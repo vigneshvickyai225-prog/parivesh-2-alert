@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:43:09.029480+00:00",
+  "generated_at": "2026-09-12T01:04:39.617547+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -13,6 +13,10 @@
     {
       "url": "https://parivesh.nic.in/assests/js/jquery-migrate.min.js",
       "bytes": 13479
+    },
+    {
+      "url": "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js",
+      "bytes": 80484
     },
     {
       "url": "https://parivesh.nic.in/assests/js/slick.min.js",
@@ -67,12 +71,12 @@
       "status": 200,
       "content_type": "text/css; charset=utf-8"
     },
-    "https://parivesh.nic.in/assests/css/bootstrap.min.css": {
+    "https://parivesh.nic.in/assests/css/slick.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css"
     },
-    "https://parivesh.nic.in/assests/css/slick.css": {
+    "https://parivesh.nic.in/assests/css/bootstrap.min.css": {
       "method": "GET",
       "status": 200,
       "content_type": "text/css"
@@ -92,17 +96,12 @@
       "status": 200,
       "content_type": "text/css"
     },
-    "https://parivesh.nic.in/assests/js/jquery.min.js": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "application/javascript"
-    },
     "https://parivesh.nic.in/assests/js/jquery-migrate.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
+    "https://parivesh.nic.in/assests/js/custom.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -112,7 +111,12 @@
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/custom.js": {
+    "https://parivesh.nic.in/assests/js/jquery.min.js": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -132,6 +136,31 @@
       "status": 200,
       "content_type": "font/ttf"
     },
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/qrcode.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/servicebg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/visitor.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
     "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
@@ -142,20 +171,15 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
+    "https://parivesh.nic.in/assests/img/logo-f.png": {
       "method": "GET",
       "status": 200,
-      "content_type": "application/json"
+      "content_type": "image/png"
     },
     "https://parivesh.nic.in/parivesh_api/visitor/list": {
       "method": "POST",
       "status": 200,
       "content_type": "application/json"
-    },
-    "https://parivesh.nic.in/assests/img/logo-f.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
     },
     "https://parivesh.nic.in/assests/img/indianflag.svg": {
       "method": "GET",
@@ -166,6 +190,11 @@
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "application/json"
     },
     "https://parivesh.nic.in/assests/img/logo-new.svg": {
       "method": "GET",
@@ -181,31 +210,6 @@
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/visitor.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/qrcode.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
-    "https://parivesh.nic.in/assests/img/servicebg.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
     }
   },
   "validated_records": [],
