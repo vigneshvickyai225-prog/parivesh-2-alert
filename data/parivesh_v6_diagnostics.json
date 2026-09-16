@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T23:35:15.775601+00:00",
+  "generated_at": "2026-09-16T00:05:52.943312+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -101,12 +101,12 @@
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/slick.min.js": {
+    "https://parivesh.nic.in/assests/js/custom.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/custom.js": {
+    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -116,7 +116,7 @@
       "status": 200,
       "content_type": "application/javascript"
     },
-    "https://parivesh.nic.in/assests/js/bootstrap.bundle.min.js": {
+    "https://parivesh.nic.in/assests/js/slick.min.js": {
       "method": "GET",
       "status": 200,
       "content_type": "application/javascript"
@@ -131,17 +131,12 @@
       "status": 200,
       "content_type": "font/woff2"
     },
-    "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJG.ttf": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "font/ttf"
-    },
     "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/qrcode.png": {
+    "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -156,12 +151,17 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/visitor.png": {
+    "https://parivesh.nic.in/assests/img/ecbg.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/ecbg.png": {
+    "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787zAvCJG.ttf": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "font/ttf"
+    },
+    "https://parivesh.nic.in/assests/img/qrcode.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -181,22 +181,22 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/Emblem_of_India.svg": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/svg+xml"
-    },
     "https://parivesh.nic.in/assests/img/logo-new.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
     },
     "https://parivesh.nic.in/assests/img/azadi-ka-amrit-mahotsav.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    "https://parivesh.nic.in/assests/img/Emblem_of_India.svg": {
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
