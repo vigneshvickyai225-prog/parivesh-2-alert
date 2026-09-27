@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T23:02:40.535950+00:00",
+  "generated_at": "2026-09-27T01:37:25.222744+00:00",
   "target": "https://parivesh.nic.in/#/ec",
   "js_bundles": [
     {
@@ -136,7 +136,7 @@
       "status": 200,
       "content_type": "font/ttf"
     },
-    "https://parivesh.nic.in/assests/img/visitor.png": {
+    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -146,22 +146,22 @@
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/servicebg.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
-    },
     "https://parivesh.nic.in/assests/img/ecnew.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
-    "https://parivesh.nic.in/assests/img/parivesh-slider.png": {
+    "https://parivesh.nic.in/assests/img/visitor.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
     },
     "https://parivesh.nic.in/assests/img/ecbg.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    "https://parivesh.nic.in/assests/img/servicebg.png": {
       "method": "GET",
       "status": 200,
       "content_type": "image/png"
@@ -175,6 +175,11 @@
       "method": "POST",
       "status": 200,
       "content_type": "application/json"
+    },
+    "https://parivesh.nic.in/assests/img/logo-f.png": {
+      "method": "GET",
+      "status": 200,
+      "content_type": "image/png"
     },
     "https://parivesh.nic.in/assests/img/Lifelogo.svg": {
       "method": "GET",
@@ -195,11 +200,6 @@
       "method": "GET",
       "status": 200,
       "content_type": "image/svg+xml"
-    },
-    "https://parivesh.nic.in/assests/img/logo-f.png": {
-      "method": "GET",
-      "status": 200,
-      "content_type": "image/png"
     },
     "https://parivesh.nic.in/ua/parivesh/StatePortal/GetStatePortalData/ALL/1018": {
       "method": "GET",
